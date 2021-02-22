@@ -54,7 +54,7 @@ function getTodos() {
 todos.forEach(function(todo){
     const newTask = document.createElement('li')
     const removeBtn = document.createElement('button')
-    removeBtn.innerText = 'X'
+    removeBtn.innerText = 'Delete'
     newTask.innerText = todo.value
     if (todo.completed) {
             newTask.classList.add('completed')
